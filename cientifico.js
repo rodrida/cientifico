@@ -92,4 +92,13 @@
 // seleccionamos repo, admin:repo_hook y click en Generate token
 // copiamos el token que nos genera, en travis CI nos vamos a Settings, click en Sync account, para que
 // pueda leer los repositorios sobre los que estoy trabajando, buscamos el repositorio de nuestra aplicación,
-// click en Settings, 
+// click en Settings, click en More options, click en Settings, en variables de entorno establecemos,
+// GITHUB_TOKEN y el valor del token que generamos en GitHub, click en Add
+
+// ahora generamos el script en nuestra aplicación, creamos en la raíz del proyecto el archivo .travis.yml
+// construimos el script que me va a permitir automatizar el proceso de enviar a producción nuestro proyecto
+// mandamos este archivo al repositorio en GitHub
+
+// en Travis CI nos vamos a Settings, buscamos el repositorio de nuestra aplicación,
+// click en toggle para habilitarlo, es decir, ya podemos verlo en el Dashboard, click en More options,
+// click en Trigger build, click en Trigger custom build
