@@ -102,3 +102,5 @@
 // en Travis CI nos vamos a Settings, buscamos el repositorio de nuestra aplicación,
 // click en toggle para habilitarlo, es decir, ya podemos verlo en el Dashboard, click en More options,
 // click en Trigger build, click en Trigger custom build
+// el proceso que se ejecuta, genera una rama nueva en nuestro repositorio en GitHub llamada gh-pages
+// que es donde vive nuestro proyecto
