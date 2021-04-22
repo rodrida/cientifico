@@ -1,6 +1,7 @@
 // creamos la función que nos va a retornar la vista que necesitamos
 
 import getData from '../utils/getData';
+import getHash from '../utils/getHash'
 
 // Nota: En este archivo llamamos a la función async getData, que hace el llamado a la API, por lo tanto, 
 // la función Home debemos convertirla a una función async.
