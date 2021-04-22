@@ -8,7 +8,8 @@ import getData from '../utils/getData';
 const Home = async () => {
     // hacemos el llamado a la función async getData y por ser el Home no le pasamos ningún id, es decir,
     // obtiene todos los personajes de la API
-    const characters = await getData();
+    const page = await getHash();
+    const characters = await getData(page);
     // dentro de nuestra vista escribimos el código que nos permite obtener los datos en específico
     // que necesitamos de la API, haciendo uso del objeto iterable en formato JSON que se obtiene
     // finalmente utilizamos la función join para generar un bloque, es decir, unir el array que obtenemos
