@@ -1,7 +1,6 @@
 // creamos la función que nos va a retornar la vista que necesitamos
 
 import getData from '../utils/getData';
-import getHash from '../utils/getHash'
 
 // Nota: En este archivo llamamos a la función async getData, que hace el llamado a la API, por lo tanto, 
 // la función Home debemos convertirla a una función async.
@@ -9,8 +8,7 @@ import getHash from '../utils/getHash'
 const Home = async () => {
     // hacemos el llamado a la función async getData y por ser el Home no le pasamos ningún id, es decir,
     // obtiene todos los personajes de la API
-    const page = await getHash();
-    const characters = await getData(page);
+    const characters = await getData();
     // dentro de nuestra vista escribimos el código que nos permite obtener los datos en específico
     // que necesitamos de la API, haciendo uso del objeto iterable en formato JSON que se obtiene
     // finalmente utilizamos la función join para generar un bloque, es decir, unir el array que obtenemos

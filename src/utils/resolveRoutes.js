@@ -1,4 +1,4 @@
-// creamos la función que dependiendo de la ruta que se obtiene del usuario, 
+// creamos la función que dependiendo de la ruta que se obtiene de la navegación del usuario, 
 // saber a cuál template lo voy a mandar, si al Home ó a la sección de rutas ó si no lo encuentro, mandarlo
 // al Error404
 
