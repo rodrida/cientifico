@@ -10,7 +10,7 @@
 
 // creamos los scripts build (modo producción) y start (modo desarrollo) en el archivo package.json
 // para probar que todo funciona hasta este momento, escribimos un console.log('Hello'); en el archivo index.js
-// así como escribir la estructura base del HTML en el archivo index.html
+// de la carpeta src, así como escribir la estructura base del HTML en el archivo index.html de la carpeta public
 
 // ejecutamos en la terminal: npm run build
 // obtenemos la carpeta dist con nuestros archivos en código resultante (código optimizado)
